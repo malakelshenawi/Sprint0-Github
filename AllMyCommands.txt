@@ -1,0 +1,44 @@
+$ git init
+
+$ git add "Section1.txt"
+
+$ git add "Section2.txt"
+
+$ git add "Section3.txt"
+
+$ git commit -m "Adding 3 files"
+
+$ git config --global user.name [malakelShenawi]
+
+$ git config --global user.email [mickey_hatem@hotmail.com]
+
+$ git remote add origin https://github.com/malakelshenawi/Sprint0-Github.git
+
+$ git push origin master
+
+$ git rm --cached "Section2.txt"
+
+$ git commit -m "deleting file 2"
+
+$ git add "Section2.txt"
+
+$ git commit -m "Rolling back to add deleted file "
+
+$ git push origin master
+
+$ git branch "ReadMe"
+
+$ git push origin ReadMe
+
+$ git add README.md
+
+$ git commit -m "read me file"
+
+$ git push origin ReadMe
+
+$ git push origin master
+
+$ git pull origin master
+
+$ git merge ReadMe
+
